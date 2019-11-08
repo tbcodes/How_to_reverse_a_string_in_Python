@@ -1,0 +1,43 @@
+# How to reverse a string in Python!
+
+
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱
+# Method 1:  --|--  Using join reversed()
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱
+
+str = "TruzzBlogg"
+rev = ''.join(reversed(str))
+print(rev)
+
+# If you want to deal with lower case characters:
+str = "TruzzBlogg".casefold()
+rev = ''.join(reversed(str))
+print(rev)
+
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+# Method 2:  --|--  String slicing + Negative Index
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+
+s = "Rotatory"
+rev = s[::-1]
+print(rev)
+
+# In a single line!
+s = "Rotatory"[::-1]
+print(s)
+
+
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+# Method 3:  --|--  Using a While Loop:
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+
+str = "Python" 
+reversedString=[]
+str_len = len(str) 
+while str_len > 0: 
+    reversedString += str[ str_len - 1 ] # Read the last element of your string and save it in reversedString
+    str_len = str_len - 1 # Decrement str_len
+
+print(reversedString)
+reversedString_join = ''.join(reversedString)
+print("Your word '{}' was reversed: ".format(str), reversedString_join) 
