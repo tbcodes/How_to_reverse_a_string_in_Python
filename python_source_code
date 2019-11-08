@@ -27,9 +27,9 @@ s = "Rotatory"[::-1]
 print(s)
 
 
-📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎
 # Method 3:  --|--  Using a While Loop:
-📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎⏱⚒🖊📌🔗🔧
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎
 
 str = "Python" 
 reversedString=[]
