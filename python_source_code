@@ -41,3 +41,22 @@ while str_len > 0:
 print(reversedString)
 reversedString_join = ''.join(reversedString)
 print("Your word '{}' was reversed: ".format(str), reversedString_join) 
+
+
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎
+# Method 4:  --|--  Using a For Loop:
+📡🔋🔧🧰💎⏱⏳⛓⚙️⚒🖊📌🔗🔧📡🔋🔧🧰💎
+
+def reverse(str_arg): 
+  str = "" 
+  for i in str_arg: 
+    str = i + str
+    print(str)
+  return str
+  
+str_arg = "TruzzBlogg"
+  
+print ("Original string: {}".format(str_arg)) 
+  
+print ("Reversed string is : ") 
+print (reverse(str_arg)) 
